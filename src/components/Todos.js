@@ -22,7 +22,7 @@ const initialTodos = [
 ];
 
 const Todos = () => {
-  const [todos, setTodos] = useState([initialTodos]);
+  const [todos, setTodos] = useState(initialTodos);
   const addTodo = (text) => {
     const newTodo = {
       text,
