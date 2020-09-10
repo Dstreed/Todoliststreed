@@ -6,7 +6,6 @@ function App() {
     <div className="container my-4">
       <header className="App-header">
         <h1 className="text-center">Todos App</h1>
-
         <Todos />
       </header>
     </div>
